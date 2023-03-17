@@ -1,0 +1,113 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#main{
+    min-height: 100%;
+    position: relative;
+}
+#footer {
+    background : #25242a;
+    color: #B9BABC;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.top-footer {
+    display: flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col {
+    flex-basis: 20%;
+  }
+  
+  .footer {
+    margin: 30px 0px;
+  
+  }
+  
+  .footer ul {
+    list-style: none;
+  }
+  
+  .footer .footer-title {
+    color: darkorange;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0px 31px 30px;
+  }
+  
+  .footer-links li+li {
+    margin-top: 15px;
+  }
+  
+  .footer-links li a {
+    color: #B9BABC;
+  }
+  
+  .footer-links li i {
+    margin-right: 15px;
+    color: darkorange;
+    width: 14px;
+    text-align: center;
+  }
+  
+  .footer-links li a:hover {
+    color: darkorange;
+  }
+  
+  .copyright {
+    margin-top: 30px;
+    margin-bottom: px;
+    display: block;
+    font-size: 10px;
+  }
+  
+  .footer-payments li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .footer-payments li a {
+    color: darkorange;
+    font-size: 36px;
+    display: block;
+  }
+  
+  .bottom-footer {
+    text-align: center;
+  }
+  
+  .socials {
+    margin-top: 2.2em;
+  }
+  
+  .socials a {
+    background: darkorange;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .socials a i {
+    color: #e7f2f4;
+    padding: 10px 10px ;
+    font-size: 20px;
+  }
+  
+  .btn {
+    border: none;
+    background: darkorange;
+    color: #fff;
+    padding: 10px 10px;
+  }
+  
+  .send-box input {
+    height: 36px;
+  }

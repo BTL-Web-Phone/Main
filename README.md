@@ -1,3 +1,3 @@
 # Main
-Tui để hết trong web.rar đấy mn tải về xem.  
-Phần slider tui bổ sung sau nha.
+Tui để hết trong Main.rar đấy mn tải về xem.  
+lấy header và footer để code các trang khác

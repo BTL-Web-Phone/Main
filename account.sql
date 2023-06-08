@@ -1,7 +1,10 @@
+create database btl;
+use btl;
 create table account(
-	accountId int primary key,
-    fullname varchar(50),
-    phone varchar(16),
+	id int primary key auto_increment,
+    username varchar(50),
+    sdt varchar(16),
     email varchar(100),
     password varchar(50)
 );
+
